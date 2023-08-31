@@ -1,0 +1,11 @@
+var n1 = parseFloat(prompt("Digite a primeira nota:"));
+var n2 = parseFloat(prompt("Digite a segunda nota:"));
+var n3 = parseFloat(prompt("Digite a terceira nota:"));
+
+var pesoN1 = 2;
+var pesoN2 = 3;
+var pesoN3 = 5;
+
+var media = (n1 * pesoN1 + n2 * pesoN2 + n3 * pesoN3) / (pesoN1 + pesoN2 + pesoN3);
+
+console.log("A média do aluno é: " + media.toFixed(2));
